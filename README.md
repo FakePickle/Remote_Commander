@@ -15,11 +15,13 @@
 
 1. Clone the repository:
   ```git clone https://github.com/yourusername/RemoteCommander.git```
-2. Run the server Script on remote machine:
+2. Install the required module:
+  ```pip install colorama==0.4.4```
+4. Run the server Script on remote machine:
   ```python server.py```
-3. Run the client script on local machine:
+5. Run the client script on local machine:
   ```python client.py```
-4. **Enter Commands:**
+6. **Enter Commands:**
    - Once the client and server are connected, you can enter various commands on the client side. Here are some examples:
 
      - **List Files:**
